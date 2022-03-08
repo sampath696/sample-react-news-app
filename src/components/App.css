@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.ent {
+  background-color: #333;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.demo{
+  /* border-bottom: 2px solid white; */
+  border: 2px solid white;
+  margin: 50px 70px 0px 70px ;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width:500px){
+  .demo{
+    margin: 25px 5px 0px 10px ;
+  }
+}
+
+.title {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #f8eeee;
+}
+
+@media only screen and (max-width: 500px) {
+  .title {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 450px;
+  height: 350px;
+  float: left;
+  border-radius: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border-radius: 0%;
+  }
+}
+
+.content {
+  color: rgb(19, 218, 253);
+  font-weight: bold;
+  font-size: 20px;
+  background: none;
+  display: block;
+}
+
+.desc {
+  background: none;
+  font-weight: bold;
+  font-size: medium;
+  color: rgb(233, 215, 215);
+}
+
+.read {
+  color: red;
+  background: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.read:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.author {
+  color: #cccccc;
+  background: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.head{
+  color: #000;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+hr {
+  margin-top: 50px;
+  font-weight: bolder;
+  color: white;
+}
